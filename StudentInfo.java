@@ -2,10 +2,10 @@ package studentinfo;
 
 import java.util.Scanner;
 
-public class StudentInfo
-{
-    public static void main(String[] args)
-    {
+public class StudentInfo{
+    
+    public static void main(String[] args){
+        
         String Name;
         int Marks;
         String RegistrationNo;
@@ -30,18 +30,24 @@ public class StudentInfo
         Course = Sc.nextLine(); 
         
         System.out.println("Student Name: " + Name);
+        
         System.out.println("Registration No: " + RegistrationNo);
+        
         System.out.println("Marks: " + Marks);
+        
         System.out.println("Course Name: " + Course);
-       if(Marks>50)
-       {
+        
+       if(Marks>50){
+           
            System.out.println("Result :pass");
+           
        }
-           else
-           {
+           
+           else{
+               
                System.out.println("result:fail");
                    
-                   }
+          }
        }
     }
 
